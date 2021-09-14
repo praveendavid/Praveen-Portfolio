@@ -4,7 +4,6 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 import boeing from "../../Assets/Projects/boeing.jpg";
-import emotion from "../../Assets/Projects/emotion.jpeg";
 import nissan from "../../Assets/Projects/nissan.jpg";
 import beacon from "../../Assets/Projects/beacon.jpg";
 import bofa from "../../Assets/Projects/bofa.png";

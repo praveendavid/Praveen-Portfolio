@@ -12,15 +12,16 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import ScrollToTop from "./components/ScrollToTop";
-
-const App=()=> {
+import ContactMe from "./components/contactMe/Contactme";
+import { ToastContainer } from 'react-toastify';
+const App = () => {
   const [load, upadateLoad] = useState(true);
-  
+
   useEffect(() => {
     const timer = setTimeout(() => {
       upadateLoad(false);
     }, 1200);
-    
+
     return () => clearTimeout(timer);
   }, []);
 
@@ -28,6 +29,7 @@ const App=()=> {
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
+      <ToastContainer autoClose={3000} />
         <Navbar />
         <ScrollToTop />
         <Switch>
@@ -35,6 +37,7 @@ const App=()=> {
           <Route path="/project" component={Projects} />
           <Route path="/about" component={About} />
           <Route path="/resume" component={Resume} />
+          <Route path="/contactMe" component={ContactMe} />
         </Switch>
         <Footer />
       </div>

@@ -1,10 +1,6 @@
 import React, { useRef, useState } from "react";
-import { Container, Row, Col, Form, Button } from "react-bootstrap";
+import { Container, Col, Form, Button } from "react-bootstrap";
 import Particle from "../Particle";
-import Techstack from "../About/Techstack";
-import Aboutcard from "../About/AboutCard";
-import laptopImg from "../../Assets/about.png";
-import Toolstack from "../About/Toolstack";
 import emailjs from 'emailjs-com';
 import { toast } from "react-toastify";
 const ContactMe = () => {

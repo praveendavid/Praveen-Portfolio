@@ -35,7 +35,9 @@ const Projects = () => {
               imgPath={nissan}
               isBlog={false}
               title="TOFFEE"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
+              description="ApplicaTion RepOsitory For PortFolio ManagEmEnt is to manage
+              and visualize information and status of global applications. To reduce the number of applications by eliminating duplication of application between regions. Thus reducing the cost to the
+              company"
               link="https://github.com/soumyajit4419/Editor.io"
             />
           </Col>
@@ -44,7 +46,10 @@ const Projects = () => {
               imgPath={servicenow}
               isBlog={false}
               title="TOFFEE 2.0"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              description="Service Now Tool based development activity to expand
+              Application Repository data coverage which increase transparency
+              between applications and their business relevancy for business
+              support. Single Source Truth for all APM Applications."
               link="https://github.com/soumyajit4419/Bits-0f-C0de"
             />
           </Col>
@@ -53,7 +58,10 @@ const Projects = () => {
               imgPath={boeing}
               isBlog={false}
               title="Boeing"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
+              description="The world largest aerospace company and
+              leading manufacturer of commercial jetliners, defense, space and security system. Developed portal named
+              Analytics suite for displaying fleet health to the end
+              users."
               link="https://github.com/soumyajit4419/Plant_AI"
             />
           </Col>
@@ -62,7 +70,11 @@ const Projects = () => {
               imgPath={beacon}
               isBlog={false}
               title="Beacon Health Options"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+              description="DBHDD Portal - The Georgia Department of
+              Behavioral Health and Developmental Disabilities
+              provides treatment and support services to people with
+              mental health challenges and substance use disorders, and assists individuals who live with intellectual and
+              development disorders."
               link="https://github.com/soumyajit4419/Chatify"
             />
           </Col>

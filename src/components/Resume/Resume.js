@@ -7,7 +7,6 @@ import pdf from "../../Assets/praveen-kumar-david.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 const Resume = () => {
-  const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";
 
   // useEffect(() => {
   //   axios
